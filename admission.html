@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admissionstyle.css">
+    <script src="validation.js"></script>
+    <title>Admission</title>
+</head>
+<body>
+
+<!-- HEADER -->
+    <section class="header">
+            <div class="logo-box">
+                <a href="home.html" class="logo"><img src="images/logo.png" alt=""></a>
+                <h1>SUNBIC <span>University</span></h1>
+            </div>
+            <ul class="nav-bar">
+                <a href="home.html"><li>Home</li></a>
+                <a href="aboutus.html"><li>About Us</li></a>    
+                <a href="campus.html"><li>Campus</li></a>
+                <a href="admission.html" id="now"><li>Admission</li></a>
+            </ul>
+    </section>
+<!-- HEADER -->
+<!-- CONTENT -->
+    <div class="title">
+        <h1>Join our University!</h1>
+    </div>
+    <div class="outer-container">
+        <div class="container">
+            <form class="admission-form" onsubmit="return validate()">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Name</span>
+                        <input type="text" name="name" id="name" placeholder="Enter your full name">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="text" name="email" id="email" placeholder="@gmail.com">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Password</span>
+                        <input type="password" name="password" id="password" placeholder="Minimum of 5 characters">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Confirm Passowrd</span>
+                        <input type="password" name="confirm" id="confirm" placeholder="Re-enter your password">
+                    </div>
+                </div>
+                <div class="agreement-box">
+                    <input type="checkbox" name="agree" id="agree">
+                    <label for="">I agree to the terms and conditions</label>
+                </div>
+                <div class="button">
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+<!-- CONTENT -->
+<!-- FOOTER -->
+    <div class="footer">
+        <div class="inner-footer">
+            <div class="footer-text">
+                <h2>SUNBIC University</h2>
+                <br>
+                <p>380-1020, Wakabacho</p>
+                <p>Tokyo, Japan</p>
+                <p>SunbicUni@gmail.com</p>
+                <br>
+                <p>©2022 SUNBIC University</p>
+            </div>
+            <ul class="socials">
+                <a href="https://www.facebook.com/" target="_blank"><li>Facebook</li></a>
+                <a href="https://www.instagram.com/" target="_blank"><li>Instagram</li></a>
+                <a href="https://www.youtube.com/" target="_blank"><li>Youtube</li></a>
+                <a href="https://www.twitter.com/" target="_blank"><li>Twitter</li></a>
+            </ul>
+        </div>
+    </div>
+<!-- FOOTER -->
+</body>
+</html>
